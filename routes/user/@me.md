@@ -55,7 +55,7 @@ Edits, and returns the new [user object](.../objects/user.md#user-object).
 }
 ```
 
-## DELETE /users/@me: Success 204
+## POST /users/@me/delete: Success 204
 Deletes the users various objects.
 
 Only errors if the password is invalid or missing or if the user is still in ownership of a guild.
