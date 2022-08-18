@@ -1,7 +1,7 @@
 ## POST /register: Created 201
 Make a new user.
 
-Returns a [user object](.../objects/user.md#user-object).
+Returns a [user object](.././objects/user.md#user-object).
 
 ### Payload
 
@@ -22,14 +22,14 @@ Returns a [user object](.../objects/user.md#user-object).
 ```
 
 ## GET /users/@me: Success 200
-Returns the current [user](.../objects/user.md#user-object).
+Returns the current [user](.././objects/user.md#user-object).
 
 ### Headers
 
 * Authorization - User Token
 
 ## PATCH /users/@me: Success 200
-Edits, and returns the new [user object](.../objects/user.md#user-object).
+Edits, and returns the new [user object](.././objects/user.md#user-object).
 
 ### Headers
 
