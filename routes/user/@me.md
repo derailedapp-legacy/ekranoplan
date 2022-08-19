@@ -31,6 +31,10 @@ Returns the current [user](../../objects/user.md#user-object).
 ## PATCH /users/@me: Success 200
 Edits, and returns the new [user object](../../objects/user.md#user-object).
 
+Dispatches `USER_UPDATE`
+
+Dispatches a `USER_DISCONNECT` if `password` is set.
+
 ### Headers
 
 * Authorization - User Token
@@ -59,6 +63,8 @@ Edits, and returns the new [user object](../../objects/user.md#user-object).
 Deletes the users various objects.
 
 Only errors if the password is invalid or missing or if the user is still in ownership of a guild.
+
+Dispatches a `USER_DISCONNECT`
 
 Returns an empty string.
 
