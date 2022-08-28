@@ -51,11 +51,11 @@ python for our notification system, we can't just count the amount of members wi
 
 | name                      | bit    |
 | ------------------------- | ------ |
-| MODIFY_GUILD              | 1 >> 0 |
-| KICK_USERS                | 1 >> 1 |
-| MODIFY_MEMBERS            | 1 >> 2 |
-| MODIFY_MEMBER_NICKNAMES   | 1 >> 3 |
-| BAN_MEMBERS               | 1 >> 4 |
-| CREATE_TRACKS             | 1 >> 5 |
-| MODIFY_TRACKS             | 1 >> 6 |
-| DELETE_TRACKS             | 1 >> 7 |
+| MODIFY_GUILD              | 1 << 0 |
+| KICK_USERS                | 1 << 1 |
+| MODIFY_MEMBERS            | 1 << 2 |
+| MODIFY_MEMBER_NICKNAMES   | 1 << 3 |
+| BAN_MEMBERS               | 1 << 4 |
+| CREATE_TRACKS             | 1 << 5 |
+| MODIFY_TRACKS             | 1 << 6 |
+| DELETE_TRACKS             | 1 << 7 |
