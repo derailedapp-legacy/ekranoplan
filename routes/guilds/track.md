@@ -32,6 +32,8 @@ returns a [track object](../../objects/track.md#track-object).
 # PATCH /guilds/{guild_id}/tracks: No Content 204
 Partially modifies the tracks in this guild.
 
+Requires the `MODIFY_TRACKS` permission.
+
 ### Headers
 
 * Authorization - User Token

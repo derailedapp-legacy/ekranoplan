@@ -20,6 +20,8 @@ Returns a [track object](../../objects/track.md#track-object).
 # PATCH /tracks/{track_id}: Success 200
 Modifies a Track.
 
+Requires the `MODIFY_TRACKS` permission in guilds.
+
 Returns a [track object](../../objects/track.md#track-object).
 
 ### Headers
@@ -39,6 +41,8 @@ Returns a [track object](../../objects/track.md#track-object).
 
 # DELETE /tracks/{track_id}: No Content 204
 Deletes a Track.
+
+Requires the `DELETE_TRACKS` permission in guilds.
 
 ### Headers
 
