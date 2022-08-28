@@ -29,7 +29,7 @@ Returns the current [user](../../objects/user.md#user-object).
 * Authorization - User Token
 
 ## PATCH /users/@me: Success 200
-Edits, and returns the new [user object](../../objects/user.md#user-object).
+Modifies, and returns the new [user object](../../objects/user.md#user-object).
 
 Dispatches `USER_UPDATE`
 
@@ -42,6 +42,8 @@ Dispatches a `USER_DISCONNECT` if `password` is set.
 ### Payload
 
 **If a setting is set to null, it is excluded.**
+
+**All fields here are optional.**
 
 | field    | type   |
 | -------- | ------ |
@@ -59,14 +61,12 @@ Dispatches a `USER_DISCONNECT` if `password` is set.
 }
 ```
 
-## POST /users/@me/delete: Success 204
+## POST /users/@me/delete: No Content 204
 Deletes the users various objects.
 
 Only errors if the password is invalid or missing or if the user is still in ownership of a guild.
 
 Dispatches a `USER_DISCONNECT`
-
-Returns an empty string.
 
 ### Headers
 

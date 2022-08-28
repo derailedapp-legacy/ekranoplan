@@ -1,6 +1,6 @@
 # User Spec
 Derailed Users are its core interactor, 
-they have unrestricted reign over many parts of the app and have the ability to do interact with things like relationships, dm channels, guilds, etc.
+they have unrestricted reign over many parts of the app and have the ability to do interact with things like relationships, dm tracks, guilds, etc.
 
 ## User Object
 The user object is meant to be simple, 
