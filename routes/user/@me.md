@@ -28,6 +28,13 @@ Returns the current [user](../../objects/user.md#user-object).
 
 * Authorization - User Token
 
+## GET /users/@me/guilds: Success 200
+Returns the current users' [guild objects](../../objects/guild.md#guild-object).
+
+### Headers
+
+* Authorization - User Token
+
 ## PATCH /users/@me: Success 200
 Modifies, and returns the new [user object](../../objects/user.md#user-object).
 

@@ -39,7 +39,7 @@ python for our notification system, we can't just count the amount of members wi
 | field          | type                                  |
 | -------------- | ------------------------------------- |
 | user_id&       | snowflake                             |
-| guild_id&      | snowflake                             |
+| guild_id??     | snowflake                             |
 | user&&?        | [user object](./user.md#user-object)  |
 | nick           | string                                |
 | permissions&&? | integer                               |
@@ -60,3 +60,4 @@ python for our notification system, we can't just count the amount of members wi
 | CREATE_TRACKS             | 1 << 5 |
 | MODIFY_TRACKS             | 1 << 6 |
 | DELETE_TRACKS             | 1 << 7 |
+| MANAGE_ROLES              | 1 << 8 |

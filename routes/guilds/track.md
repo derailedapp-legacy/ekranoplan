@@ -1,3 +1,17 @@
+# GET /guilds/{guild_id}/tracks: Success 200
+Returns a list of [track objects](../../objects/track.md#track-object).
+
+### Headers
+
+* Authorization - User Token
+
+# GET /guilds/{guild_id}/tracks/{track_id}: Success 200
+Returns a [track object](../../objects/track.md#track-object).
+
+### Headers
+
+* Authorization - User Token
+
 # POST /guilds/{guild_id}/tracks: Created 201
 Creates a new track for this Guild.
 

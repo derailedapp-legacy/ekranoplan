@@ -1,3 +1,13 @@
+# GET /guilds/{guild_id}: Success 200
+Returns a [guild object](../../objects/guild.md#guild-object).
+
+### Headers
+
+* Authorization - User Token
+
+# GET /guilds/{guild_id}/preview: Success 200
+Returns a [guild object](../../objects/guild.md#guild-object) with "member_count" and "online_count."
+
 # POST /guilds: Created 201
 Make a brand new guild.
 

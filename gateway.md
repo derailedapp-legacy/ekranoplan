@@ -60,6 +60,23 @@ Identifying is the form of giving information to the gateway which it will proce
 
 Once you identify, you will be sent the [ready](#ready) event.
 
+## Get Guild Members
+The Gateway is the only portal Derailed gives you letting you access guild members.
+
+To trigger getting members from a guild, just send something like the following:
+
+```json
+{
+    "op": 4,
+    "d": {
+        "guild_id": "1234567890",
+        "limit": 0,
+    }
+}
+```
+
+Once sent, it will send you a `GUILD_MEMBER` event for each member.
+
 # Events
 
 ## Index
@@ -70,6 +87,7 @@ Once you identify, you will be sent the [ready](#ready) event.
 | [READY](#ready) | Dispatches once the gateway is ready  |
 | [USER_UPDATE](#user-update) | Dispatched when a user in one of your guilds was updated |
 | [SETTINGS_UPDATE](#settings-update) | Dispatched when your settings have updated |
+| [GUILD_MEMBER](#guild-member) | A Guild Member                    |
 
 ## Hello
 
@@ -127,3 +145,22 @@ The data is a user object.
 
 ## Settings Update
 The data is a settings object.
+
+## Guild Member
+A member object with `guild_id`.
+
+i.e.:
+
+```json
+{
+    "op": 0,
+    "t": "GUILD_MEMBER",
+    "d": {
+        "user": { ... },
+        "guild_id": "1234567890",
+        "nick": "Vincent The Great",
+        "permissions": 0,
+        "joined_at": "timestamp"
+    }
+}
+```
