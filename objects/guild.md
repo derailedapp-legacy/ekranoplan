@@ -35,14 +35,14 @@ python for our notification system, we can't just count the amount of members wi
 
 ## Member Object
 
-| field         | type                                  |
-| ------------- | ------------------------------------- |
-| user_id&      | snowflake                             |
-| guild_id&     | snowflake                             |
-| user&&?       | [user object](./user.md#user-object)  |
-| nick          | string                                |
-| permissions&? | integer                               |
-| joined_at?    | ISO8601 timestamp                     |
+| field          | type                                  |
+| -------------- | ------------------------------------- |
+| user_id&       | snowflake                             |
+| guild_id&      | snowflake                             |
+| user&&?        | [user object](./user.md#user-object)  |
+| nick           | string                                |
+| permissions&&? | integer                               |
+| joined_at?     | ISO8601 timestamp                     |
 
 
 ## Permissions
