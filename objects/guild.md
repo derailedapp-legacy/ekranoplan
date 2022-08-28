@@ -62,3 +62,4 @@ python for our notification system, we can't just count the amount of members wi
 | MODIFY_TRACKS             | 1 << 6 |
 | DELETE_TRACKS             | 1 << 7 |
 | MANAGE_ROLES              | 1 << 8 |
+| ADMINISTRATOR             | 1 << 9 |
