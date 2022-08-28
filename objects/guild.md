@@ -5,6 +5,7 @@ Derailed Guild's have an open-set of fleshed out features.
 Some, like Track, or Message are fleshed out outside of this document but most other's should be here for organizational purposes.
 
 ## Guild Object
+The max guilds a user can be in is 300.
 
 | field             | type              |
 | ----------------- | ----------------- |
