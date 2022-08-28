@@ -16,8 +16,8 @@ Some, like Track, or Message are fleshed out outside of this document but most o
 | flags             | integer           |
 | description       | string            |
 | nsfw              | boolean           |
-| member_count&&    | integer           |
-| online_count&&    | integer           |
+| member_count&&??  | integer           |
+| online_count&&??  | integer           |
 
 * name - Maxed at 100
 * features - These are non-default features given to the guild.
