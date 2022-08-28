@@ -19,6 +19,7 @@ Some, like Track, or Message are fleshed out outside of this document but most o
 | member_count&&    | integer           |
 | online_count&&    | integer           |
 
+* name - Maxed at 100
 * features - These are non-default features given to the guild.
 * flags - A bitset of flags this guild has.
 * description - A description of the guild given to users. Locked at the max of 1300 length.
