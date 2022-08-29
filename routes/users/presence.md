@@ -1,4 +1,4 @@
-# PATCH /users/@me/presence
+# PUT /users/@me/presence
 Modifies your presence.
 
 ### Headers
