@@ -1,5 +1,5 @@
 # Indicators
-Indicators are one or two line lengthed identifiers which shows a difference of an object.
+Indicators are one, two, or three line lengthed identifiers which shows a difference of an object.
 
 ## List
 
