@@ -5,7 +5,7 @@ Presences are Derailed's way of implementing statuses and activites.
 
 | field     | type      |
 | --------- | --------- |
-| user_id&& | snowflake |
+| user_id   | snowflake |
 | status    | string    |
 | content   | string    |
 | timestamp | timestamp |
