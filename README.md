@@ -1,5 +1,5 @@
 # Welcome
-Ekranoplan is Vincent.chat's Design for it's APIs, 
+Ekranoplan is Derailed's Design for it's APIs, 
 for other (like micro) services, they either aren't designed or they have their own design doc in their repo.
 
 ## The meaning of the "snowflake" type
