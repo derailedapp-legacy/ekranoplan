@@ -1,4 +1,4 @@
-# GET /relationships/relatable/{username}{discriminator}
+# GET /relationships/relatable?username=&discriminator=
 ### Headers
 
 * Authorization - User Token
