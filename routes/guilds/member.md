@@ -1,4 +1,4 @@
-# POST /guilds/{guild_id}/members/{member_id}/ban: Created 201
+# POST /guilds/{guild_id}/members/{member_id}/ban: No Content 204
 Bans this user.
 
 Requires the `BAN_MEMBERS` permission.
