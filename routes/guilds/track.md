@@ -29,7 +29,6 @@ returns a [track object](../../objects/track.md#track-object).
 | ------------- | --------- |
 | name          | string    |
 | parent_id??   | snowflake |
-| position??    | integer   |
 | topic??       | string    |
 | type          | integer   |
 
