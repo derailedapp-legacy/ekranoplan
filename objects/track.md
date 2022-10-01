@@ -43,9 +43,9 @@ so it may be hard to try and track these internally.
 | timestamp         | ISO8601 timestamp     |
 | edited_timestamp  | ISO8601 timestamp     |
 | mention_everyone  | boolean               |
-| nonce             | string                |
 | pinned            | boolean               |
 | type              | integer               |
+| content           | string                |
 
 ## Pin Object
 This is only a DB Object.
