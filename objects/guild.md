@@ -64,3 +64,4 @@ python for our notification system, we can't just count the amount of members wi
 | MANAGE_ROLES              | 1 << 8  |
 | ADMINISTRATOR             | 1 << 9  |
 | CREATE_MESSAGE            | 1 << 10 |
+| DELETE_MESSAGES           | 1 << 11 |

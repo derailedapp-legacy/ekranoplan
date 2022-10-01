@@ -33,6 +33,8 @@ Returns a [message object](../../objects/track.md#message-object).
 # DELETE /channels/{channel_id}/messages/{message_id}: No Content 204
 Deletes a previously sent message.
 
+Requires the `DELETE_MESSAGES` permission.
+
 ### Headers
 
 * Authorization - User Token
