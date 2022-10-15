@@ -34,10 +34,14 @@ Returns a [track object](../../objects/track.md#track-object).
 
 **All fields here are optional.**
 
-| field     | type                      |
-| --------- | ------------------------- |
-| name      | string                    |
-| topic     | string                    |
+| field             | type                      |
+| ----------------- | ------------------------- |
+| name              | string                    |
+| topic             | string                    |
+| add_overwrites    | list of overwrites        |
+| remove_overwrites | list of role or user ids  |
+
+* `add_overwrites` accepts a list of overwrite objects WITH id being replaced by object_id.
 
 # DELETE /tracks/{track_id}: No Content 204
 Deletes a Track.

@@ -1,7 +1,7 @@
 ## POST /register: Created 201
 Make a new user.
 
-Returns a [user object](../../objects/user.md#user-object).
+Returns a [user object](../../objects/user.md#user-object) with an extra `token` field.
 
 ### Payload
 
@@ -21,8 +21,43 @@ Returns a [user object](../../objects/user.md#user-object).
 }
 ```
 
+## POST /login: Success 200
+Returns a token.
+
+i.e.:
+
+```json
+{
+    "token": "..."
+}
+```
+
+### Payload
+
+| field     | type   |
+| --------- | ------ |
+| username  | string |
+| password  | string |
+
+### Example
+
+```json
+{
+    "email": "example@example.com",
+    "password": "example"
+}
+```
+
+
 ## GET /users/@me: Success 200
 Returns the current [user](../../objects/user.md#user-object).
+
+### Headers
+
+* Authorization - User Token
+
+## GET /users/{user_id}: Success 200
+Returns another [user](../../objects/user.md#user-object).
 
 ### Headers
 

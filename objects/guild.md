@@ -51,15 +51,20 @@ python for our notification system, we can't just count the amount of members wi
 
 * NOTE: In a theoretical sense, the owner would inherit all of these permissions.
 
-| name                      | bit    |
-| ------------------------- | ------ |
-| MODIFY_GUILD              | 1 << 0 |
-| KICK_USERS                | 1 << 1 |
-| MODIFY_MEMBERS            | 1 << 2 |
-| MODIFY_MEMBER_NICKNAMES   | 1 << 3 |
-| BAN_MEMBERS               | 1 << 4 |
-| CREATE_TRACKS             | 1 << 5 |
-| MODIFY_TRACKS             | 1 << 6 |
-| DELETE_TRACKS             | 1 << 7 |
-| MANAGE_ROLES              | 1 << 8 |
-| ADMINISTRATOR             | 1 << 9 |
+| name                      | bit       |
+| ------------------------- | --------- |
+| MODIFY_GUILD              | 1 << 0    |
+| KICK_USERS                | 1 << 1    |
+| MODIFY_MEMBERS            | 1 << 2    |
+| MODIFY_MEMBER_NICKNAMES   | 1 << 3    |
+| BAN_MEMBERS               | 1 << 4    |
+| CREATE_TRACKS             | 1 << 5    |
+| MODIFY_TRACKS             | 1 << 6    |
+| DELETE_TRACKS             | 1 << 7    |
+| MANAGE_ROLES              | 1 << 8    |
+| ADMINISTRATOR             | 1 << 9    |
+| CREATE_MESSAGE            | 1 << 10   |
+| DELETE_MESSAGES           | 1 << 11   |
+| VIEW_MESSAGE_HISTORY      | 1 << 12   |
+| CREATE_INVITE             | 1 << 13   |
+| DELETE_INVITES            | 1 << 14   |
